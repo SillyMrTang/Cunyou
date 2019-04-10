@@ -1,2 +1,3 @@
-# Cunyou
-村游六品，品牌分类，各品牌类型的分类文章，后台管理，可添加文章删除文章
+# Django + vue.js + xadmin 的一个前后端分离项目
+# 基于django-rest-framework 提供后台接口，以及xadmin进行后台管理#
+>首先我们需要安装我们所需要的包
