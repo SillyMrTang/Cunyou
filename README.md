@@ -1,4 +1,4 @@
-# 基于django-rest-framework 提供后台接口，以及xadmin进行后台管理
+# Django + vue.js + xadmin 的小项目
 ## 这里只是做一些简单的说明，详情请查看 https://cloud.tencent.com/developer/article/1005607
      
 #### 创建django 项目， 修改settings.py配置。相信大家都比较熟悉，我就不再重复了。直接步入正题       
