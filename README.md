@@ -62,7 +62,7 @@ xadmin.site.register(views.BaseAdminView, BaseSetting)
 xadmin.site.register(TypeModel, TypeAdmin)
 xadmin.site.register(TypeContent, ContentAdmin)
 ```            
-### xamdin的基本配置完成，可创建超级用户运行项目进行查看，接下来开始创建一哥vue前端项目          
+### xamdin的基本配置完成，可创建超级用户运行项目进行查看，接下来开始创建一个vue前端项目          
 >使用npm安装vue-cli脚手架工具,如果环境中没有npm的老铁，请进行node的环境配置        
 ```
 npm install -g vue-cli
@@ -75,7 +75,7 @@ vue-init webpack vue-project
 ```
 npm install // 安装vue所需的node依赖
 ```       
-前端项目创建完毕，可以写前端代码咯，不过在写前端代码的时候关于跨域请求的问题要注意了，如下图：        
+前端项目创建完毕，可以写前端代码咯，写前端代码的时进行网络请求时会遇到关于跨域请求的问题要注意了，如下图：        
 ![https://blog-10039692.file.myqcloud.com/1501640848145_4871_1501640848404.jpg](https://blog-10039692.file.myqcloud.com/1501640848145_4871_1501640848404.jpg)        
 这时候我们须要在Django层注入header，用Django的第三方包django-cors-headers来解决跨域问题：       
 ```
