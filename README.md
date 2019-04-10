@@ -76,7 +76,7 @@ vue-init webpack vue-project
 npm install // 安装vue所需的node依赖
 ```       
 前端项目创建完毕，可以写前端代码咯，不过在写前端代码的时候关于跨域请求的问题要注意了，如下图：        
-![https://blog-10039692.file.myqcloud.com/1501640848145_4871_1501640848404.jpg]
+![https://blog-10039692.file.myqcloud.com/1501640848145_4871_1501640848404.jpg](https://blog-10039692.file.myqcloud.com/1501640848145_4871_1501640848404.jpg)
 
 
        
